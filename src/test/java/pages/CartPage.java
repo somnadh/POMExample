@@ -1,6 +1,6 @@
 package pages;
 
-//import java.util.List;
+import java.util.List;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -29,6 +29,7 @@ public class CartPage {
 			}
 			else
 			{
+				System.out.println("hahah");
 				return false;
 			}
 		}
